@@ -1,0 +1,21 @@
+﻿using Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.Interfaces
+{
+    public interface IArtImageRepository
+    {
+
+        Task<ArtImage?> GetById(int id);
+
+        Task Update(ArtImage entity);
+
+        Task Delete(int id);
+
+        Task<int> CreateAndReturnId(ArtImage entity);
+    }
+}

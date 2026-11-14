@@ -1,0 +1,11 @@
+services:
+  postgresql_db_enigmatic_ethereal_elegies:
+    image: postgres:17.10
+    container_name: postgresql_db_enigmatic_ethereal_elegies
+    restart: unless-stopped
+    environment:      
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Test2026!
+      - POSTGRES_DB=EnigmaticEtherealElegiesArt
+    ports: 
+      - "5432:5432"

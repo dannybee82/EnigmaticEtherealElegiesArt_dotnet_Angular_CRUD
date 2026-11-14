@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Application/Application.csproj" Id="7a649161-28a2-40a7-9bbf-41ed74f1e783" />
+  <Project Path="Domain/Domain.csproj" Id="cfbc5f59-83f8-42a5-89f1-fd5a386e9bd0" />
+  <Project Path="EnigmaticEtherealElegiesArtWebApi/EnigmaticEtherealElegiesArtWebApi.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" Id="8194cb34-e2c3-46de-884e-3ac01d00ca61" />
+</Solution>

@@ -1,0 +1,6 @@
+@EnigmaticEtherealElegiesArtWebApi_HostAddress = http://localhost:5083
+
+GET {{EnigmaticEtherealElegiesArtWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
